@@ -15,9 +15,18 @@ export default {
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <h1 class="bg-black">{{ title }}</h1>
   <AppBanner />
+  <h2>Prova</h2>
 </template>
 
 <style>
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+h2{
+  color: red;
+}
 </style>
